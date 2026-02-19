@@ -1,0 +1,653 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Amogh A | Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet" />
+</head>
+
+<body>
+  <!-- ======= Header / Nav ======= -->
+  <header class="header" id="home">
+    <nav class="nav container">
+      <div class="nav__logo">AA</div>
+
+      <button class="nav__toggle" id="navToggle" aria-label="Toggle navigation">
+        <span></span><span></span>
+      </button>
+
+      <ul class="nav__menu" id="navMenu">
+        <li><a href="#home" class="nav__link active">Home</a></li>
+        <li><a href="#about" class="nav__link">About</a></li>
+        <li><a href="#skills" class="nav__link">Skills</a></li>
+        <li><a href="#projects" class="nav__link">Projects</a></li>
+        <li><a href="#experience" class="nav__link">Experience</a></li>
+        <li><a href="#education" class="nav__link">Education</a></li>
+        <li>
+          <a href="#certifications" class="nav__link">Certifications</a>
+        </li>
+        <li><a href="#contact" class="nav__link">Contact</a></li>
+      </ul>
+
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+        <span class="theme-toggle__icon">☾</span>
+      </button>
+    </nav>
+
+    <!-- ======= Hero Section ======= -->
+    <section class="hero container">
+      <div class="hero__content">
+        <p class="hero__eyebrow">Computer Science Engineering Graduate</p>
+        <h1 class="hero__title">Hi, I'm <span>Amogh&nbsp;A</span>.</h1>
+        <h2 class="hero__subtitle">
+          I build thoughtful web experiences and intelligent systems.
+        </h2>
+        <p class="hero__text">
+          Passionate about programming, public transportation tech, and
+          user-centric web applications. I enjoy turning real-world problems
+          into scalable, reliable software solutions.
+        </p>
+
+        <div class="hero__actions">
+          <a href="#projects" class="btn btn--primary">View My Work</a>
+          <a href="#contact" class="btn btn--ghost">Contact Me</a>
+        </div>
+
+        <div class="hero__meta">
+          <div class="meta-card">
+            <span class="meta-card__label">CGPA</span>
+            <span class="meta-card__value">8.3</span>
+            <span class="meta-card__hint">B.E. CSE</span>
+          </div>
+          <div class="meta-card">
+            <span class="meta-card__label">Core Skills</span>
+            <span class="meta-card__value">Java · Python</span>
+            <span class="meta-card__hint">Web · AI · DB</span>
+          </div>
+          <div class="meta-card">
+            <span class="meta-card__label">Based In</span>
+            <span class="meta-card__value">Bengaluru</span>
+            <span class="meta-card__hint">Srinagara</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero__panel">
+        <div class="hero__glass">
+          <p class="hero__tag">Featured Project</p>
+          <h3 class="hero__project-title">Friends of BMTC</h3>
+          <p class="hero__project-text">
+            A real-time guide to BMTC bus routes and timings, improving
+            accessibility for thousands of commuters.
+          </p>
+          <ul class="hero__stack">
+            <li>PHP</li>
+            <li>MySQL</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+          </ul>
+        </div>
+
+        <div class="hero__chip-strip">
+          <span class="chip">Public Transport Advocacy</span>
+          <span class="chip">Full-Stack Web Dev</span>
+          <span class="chip">AI Prototyping</span>
+        </div>
+      </div>
+    </section>
+  </header>
+
+  <main>
+    <!-- ======= About ======= -->
+    <section class="section" id="about">
+      <div class="container section__inner section__inner--split">
+        <div>
+          <h2 class="section__title">About Me</h2>
+          <p class="section__text">
+            I am a Computer Science Engineering graduate passionate about
+            programming and web development. Skilled in Java, Python, HTML,
+            and CSS, I have hands-on experience through impactful projects
+            like an AI-enhanced learning assistant platform, an RTO Database
+            Management System, and <strong>Friends of BMTC</strong>, a
+            real-time guide for Bengaluru’s bus commuters.
+          </p>
+          <p class="section__text">
+            I enjoy solving challenging problems, collaborating in teams, and
+            working on systems that directly improve everyday experiences. I’m
+            constantly learning and exploring tools across frontend, backend,
+            and AI to build smarter applications.
+          </p>
+        </div>
+
+        <aside class="about__cards">
+          <div class="about-card">
+            <h3>Advocacy</h3>
+            <p>
+              Member of an advocacy group promoting public transportation in
+              Bengaluru, collaborating with officials to enhance the user
+              experience for public transit systems.
+            </p>
+          </div>
+          <div class="about-card">
+            <h3>What I’m Looking For</h3>
+            <p>
+              Opportunities to build modern web applications, AI-powered
+              tools, and systems that make mobility and learning more
+              efficient.
+            </p>
+          </div>
+          <div class="about-card about-card--tags">
+            <h3>Hobbies</h3>
+            <div class="tag-list">
+              <span class="tag">Photography</span>
+              <span class="tag">Travelling</span>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <!-- ======= Skills ======= -->
+    <section class="section section--alt" id="skills">
+      <div class="container">
+        <h2 class="section__title section__title--center">Skills Snapshot</h2>
+        <p class="section__subtitle">
+          A blend of programming, web technologies, and AI-centric
+          development.
+        </p>
+
+        <div class="skills-grid">
+          <div class="skills-block">
+            <h3>Programming Languages</h3>
+            <ul class="pill-list">
+              <li class="pill">Java</li>
+              <li class="pill">Python</li>
+            </ul>
+          </div>
+
+          <div class="skills-block">
+            <h3>Web Technologies</h3>
+            <ul class="pill-list">
+              <li class="pill">HTML</li>
+              <li class="pill">CSS</li>
+              <li class="pill">JavaScript</li>
+              <li class="pill">React</li>
+              <li class="pill">Flask</li>
+              <li class="pill">Node.js</li>
+              <li class="pill">REST APIs</li>
+            </ul>
+          </div>
+
+          <div class="skills-block">
+            <h3>Databases & Backend</h3>
+            <ul class="pill-list">
+              <li class="pill">MySQL</li>
+              <li class="pill">PHP</li>
+              <li class="pill">Authentication Basics</li>
+              <li class="pill">Deployment Concepts</li>
+            </ul>
+          </div>
+
+          <div class="skills-block">
+            <h3>Professional Strengths</h3>
+            <ul class="pill-list">
+              <li class="pill">Problem Solving</li>
+              <li class="pill">Teamwork</li>
+              <li class="pill">Adaptability</li>
+              <li class="pill">Public Transit Domain</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======= Projects ======= -->
+    <section class="section" id="projects">
+      <div class="container">
+        <div class="section__header">
+          <div>
+            <h2 class="section__title">Projects</h2>
+            <p class="section__subtitle">
+              Selected work that showcases how I think about systems, users,
+              and real-world impact.
+            </p>
+          </div>
+          <div class="section__filter">
+            <button class="filter-btn filter-btn--active" data-filter="all">
+              All
+            </button>
+            <button class="filter-btn" data-filter="web">Web</button>
+            <button class="filter-btn" data-filter="ai">AI</button>
+            <button class="filter-btn" data-filter="db">Database</button>
+          </div>
+        </div>
+
+
+        <div class="projects-grid">
+          <!-- Smart Bookmark App -->
+          <article class="project-card" data-category="web">
+            <div class="project-card__badge project-card__badge--accent">
+              Full-Stack · Realtime
+            </div>
+            <h3 class="project-card__title">
+              Smart Bookmark App — Secure Realtime Bookmark Manager
+            </h3>
+            <p class="project-card__meta">
+              Next.js · Supabase · Tailwind CSS · Vercel
+            </p>
+            <p class="project-card__desc">
+              Built a full-stack bookmark management application with Google
+              OAuth authentication, private per-user data access, and real-time
+              synchronization across browser tabs. Designed with a modern
+              responsive UI and deployed for production use.
+            </p>
+            <ul class="project-card__highlights">
+              <li>Secure authentication using Supabase Google OAuth.</li>
+              <li>Private bookmarks enforced with Row Level Security.</li>
+              <li>Realtime updates across multiple tabs.</li>
+              <li>Deployed live on Vercel.</li>
+            </ul>
+            <div style="margin-top: 0.8rem">
+              <a href="https://your-vercel-url.vercel.app" target="_blank" rel="noopener noreferrer"
+                class="btn btn--primary">Live Demo</a>
+              <a href="https://github.com/your-username/smart-bookmark-app" target="_blank" rel="noopener noreferrer"
+                class="btn btn--ghost">GitHub</a>
+            </div>
+            <!-- Transit Guide Prototype -->
+            <article class="project-card" data-category="web db">
+              <div class="project-card__badge">Live Domain</div>
+              <h3 class="project-card__title">
+                Transit Guide Prototype (Friends of BMTC)
+              </h3>
+              <p class="project-card__meta">PHP · MySQL · JavaScript</p>
+              <p class="project-card__desc">
+                Architected a relational database system to manage thousands of bus route
+                data points, schedules, and stop coordinates for Bengaluru’s public
+                transportation network.
+              </p>
+              <ul class="project-card__highlights">
+                <li>Search-based interface for real-time route retrieval.</li>
+                <li>Optimized commuter travel planning experience.</li>
+                <li>High data integrity through streamlined admin workflows.</li>
+              </ul>
+            </article>
+
+
+            <!-- AI Enhanced Learning Assistant Platform -->
+            <article class="project-card" data-category="web ai">
+              <div class="project-card__badge project-card__badge--accent">
+                Full-Stack · AI
+              </div>
+              <h3 class="project-card__title">
+                AI Enhanced Learning Assistant Platform
+              </h3>
+              <p class="project-card__meta">React · Python · Flask · Node.js</p>
+              <p class="project-card__desc">
+                Engineered a full-stack web application integrating a React frontend with a
+                Flask backend to deliver AI-driven educational content and interactive
+                learning experiences.
+              </p>
+              <ul class="project-card__highlights">
+                <li>Implemented Python-based logic to process user queries.</li>
+                <li>Provided interactive machine learning demonstrations.</li>
+                <li>Designed responsive UI for complex backend integration.</li>
+              </ul>
+            </article>
+
+
+            <!-- RTO DBMS -->
+            <!-- RTO Database Management System -->
+            <article class="project-card" data-category="db web">
+              <h3 class="project-card__title">
+                RTO Database Management System
+              </h3>
+              <p class="project-card__meta">MySQL · PHP · HTML · CSS</p>
+              <p class="project-card__desc">
+                Built a centralized management system for vehicle registrations, fitness
+                tests, and driver license renewals to streamline administrative workflows.
+              </p>
+              <ul class="project-card__highlights">
+                <li>Structured schema for core RTO operations.</li>
+                <li>User-friendly web interface for data entry and retrieval.</li>
+                <li>Reduced record processing time for municipal tracking.</li>
+              </ul>
+            </article>
+
+
+            <!-- DevHacks Hackathon -->
+            <article class="project-card" data-category="web">
+              <div class="project-card__badge project-card__badge--soft">
+                Hackathon · 24h
+              </div>
+              <h3 class="project-card__title">
+                Multi-Modal Travel App – DevHacks 1.0
+              </h3>
+              <p class="project-card__meta">Open Theme Hackathon · 2023</p>
+              <p class="project-card__desc">
+                Assembled a multi-modal travel planning app integrating various
+                modes of transportation to deliver the most efficient travel
+                routes. Built under time pressure, emphasizing teamwork and
+                problem-solving.
+              </p>
+              <ul class="project-card__highlights">
+                <li>
+                  Collaborative design and implementation in a 24-hour window.
+                </li>
+                <li>
+                  Route optimization concept using multiple mobility options.
+                </li>
+                <li>Strengthened rapid prototyping and pitching skills.</li>
+              </ul>
+            </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======= Experience ======= -->
+    <section class="section section--alt" id="experience">
+      <div class="container">
+        <h2 class="section__title section__title--center">
+          Experience & Advocacy
+        </h2>
+        <p class="section__subtitle">
+          Blending technical work with real-world community impact.
+        </p>
+
+        <div class="timeline">
+          <div class="timeline__item">
+            <div class="timeline__dot"></div>
+            <div class="timeline__content">
+              <div class="timeline__header">
+                <h3>Friends of BMTC – Volunteer & Contributor</h3>
+                <span class="timeline__date">2022 – Present · Bengaluru</span>
+              </div>
+              <p>
+                Contributed as a member of an advocacy group promoting public
+                transportation in Bengaluru. Worked with commuters and
+                officials to understand challenges, propose solutions, and
+                improve the public transit experience.
+              </p>
+              <ul>
+                <li>
+                  Helped bridge the gap between commuters and BMTC through
+                  accessible information.
+                </li>
+                <li>
+                  Used technical skills to support tools and digital
+                  initiatives around bus routes and communication.
+                </li>
+                <li>
+                  Strengthened understanding of large-scale mobility systems.
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="timeline__item">
+            <div class="timeline__dot"></div>
+            <div class="timeline__content">
+              <div class="timeline__header">
+                <h3>Academic Projects & Team Work</h3>
+                <span class="timeline__date">2021 – 2025</span>
+              </div>
+              <p>
+                Built multiple academic and personal projects around
+                transport, databases, and AI-based learning solutions, often
+                in collaborative settings.
+              </p>
+              <ul>
+                <li>Owned both backend logic and user-facing design.</li>
+                <li>Followed iterative development with regular feedback.</li>
+                <li>
+                  Balanced clean code with practical delivery timelines.
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======= Education ======= -->
+    <section class="section" id="education">
+      <div class="container">
+        <h2 class="section__title section__title--center">Education</h2>
+
+        <div class="edu-grid">
+          <article class="edu-card">
+            <h3>Bachelor of Engineering – Computer Science & Engineering</h3>
+            <p class="edu-card__inst">
+              K S School of Engineering and Management
+            </p>
+            <p class="edu-card__meta">2021 – 2025 · CGPA: 8.3</p>
+            <p>
+              Core foundation in algorithms, data structures, databases, web
+              technologies, and software engineering. Complemented with
+              project-based learning and hackathon participation.
+            </p>
+          </article>
+
+          <article class="edu-card">
+            <h3>2nd PUC</h3>
+            <p class="edu-card__inst">PES PU College</p>
+            <p class="edu-card__meta">2021 · Percentage: 92.3%</p>
+          </article>
+
+          <article class="edu-card">
+            <h3>X (ICSE)</h3>
+            <p class="edu-card__inst">RV Public School</p>
+            <p class="edu-card__meta">2019 · Percentage: 92.5%</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======= Awards ======= -->
+    <section class="section" id="awards">
+      <div class="container">
+        <h2 class="section__title section__title--center">
+          Awards & Recognitions
+        </h2>
+        <p class="section__subtitle">
+          Selected recognitions for community impact and technical
+          contributions.
+        </p>
+
+        <div class="cert-grid">
+          <article class="cert-card">
+            <div class="cert-card__head">
+              <h3>
+                Mobility Symposium 2025 — Community Engagement & Awareness
+              </h3>
+              <span class="cert-card__provider">Mobility Symposium · Friends of BMTC</span>
+            </div>
+            <p class="cert-card__meta">Awarded 2025</p>
+            <p>
+              Recognized nationally for outstanding contributions to
+              public-transport accessibility, awareness campaigns, and
+              community-driven mobility improvements in Bengaluru. The award
+              highlights our work on timely information dissemination,
+              commuter outreach, and practical digital tools that improved
+              day-to-day transit experiences for thousands.
+            </p>
+
+            <div style="
+                  margin-top: 1rem;
+                  display: flex;
+                  gap: 0.8rem;
+                  align-items: flex-start;
+                  flex-wrap: wrap;
+                ">
+              <div style="flex: 1 1 320px">
+                <img src="Pictures/Mobility Symposium.jpeg" alt="Mobility Symposium Award Photo" style="
+                      width: 100%;
+                      border-radius: 1rem;
+                      border: 1px solid #444;
+                    " />
+                <p style="
+                      font-size: 0.8rem;
+                      color: var(--muted);
+                      margin-top: 0.4rem;
+                      text-align: center;
+                    ">
+                  Receiving the Mobility Symposium 2025 Award (Friends of
+                  BMTC)
+                </p>
+              </div>
+
+              <div style="flex: 1 1 320px">
+                <div style="
+                      padding: 0.6rem;
+                      border-radius: 0.9rem;
+                      background: var(--card-bg);
+                      border: 1px solid var(--border-subtle);
+                      box-shadow: var(--shadow-subtle);
+                    ">
+                  <h4 style="margin: 0 0 0.4rem">Award Details</h4>
+                  <ul style="margin: 0; padding-left: 1rem; color: var(--muted)">
+                    <li><strong>Event:</strong> Mobility Symposium 2025</li>
+                    <li>
+                      <strong>Category:</strong> Community Engagement &
+                      Awareness (Non-Corporate)
+                    </li>
+                    <li>
+                      <strong>Organizer:</strong> Mobility Symposium / Move
+                      inSync
+                    </li>
+                    <li>
+                      <strong>Reason:</strong> Impactful grassroots advocacy
+                      and tech-enabled transit accessibility initiatives
+                    </li>
+                    <li>
+                      <strong>Recognition:</strong> Team citation and event
+                      feature
+                    </li>
+                  </ul>
+
+                  <div style="
+                        margin-top: 0.8rem;
+                        display: flex;
+                        gap: 0.5rem;
+                        flex-wrap: wrap;
+                      ">
+                    <a href="Pictures/Mobility Symposium.jpeg" download class="btn btn--ghost">Download Photo</a>
+                    <a href="#contact" class="btn btn--primary">Get in touch about this work</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======= Certifications ======= -->
+    <section class="section section--alt" id="certifications">
+      <div class="container">
+        <h2 class="section__title section__title--center">
+          Certifications & Awards
+        </h2>
+
+        <div class="cert-grid">
+          <article class="cert-card">
+            <div class="cert-card__head">
+              <h3>The Complete Full-Stack Web Development Bootcamp 2025</h3>
+              <span class="cert-card__provider">Udemy · Dr. Angela Yu</span>
+            </div>
+            <p class="cert-card__meta">Completed May 26, 2025 · 61.5 hours</p>
+            <p>
+              Covered frontend, backend, REST APIs, databases, authentication,
+              and deployment. Strengthened my ability to build complete
+              production-style web apps from scratch.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======= Contact ======= -->
+    <section class="section" id="contact">
+      <div class="container section__inner section__inner--split">
+        <div>
+          <h2 class="section__title">Let’s Build Something</h2>
+          <p class="section__text">
+            I’m open to roles in web development, backend/AI integration, and
+            projects that intersect with mobility and public infrastructure.
+            Feel free to reach out for opportunities, collaborations, or just
+            to discuss ideas around public transport tech.
+          </p>
+
+          <ul class="contact-list">
+            <li>
+              <span class="contact-label">Phone</span>
+              <a href="tel:+917022846180" class="contact-value">+91&nbsp;70228&nbsp;46180</a>
+            </li>
+            <li>
+              <span class="contact-label">Email</span>
+              <a href="mailto:amogh.official2019@gmail.com" class="contact-value">
+                amogh.official2019@gmail.com
+              </a>
+            </li>
+            <li>
+              <span class="contact-label">LinkedIn</span>
+              <a href="https://www.linkedin.com/in/amoghaa/" target="_blank" rel="noopener noreferrer"
+                class="contact-value">
+                linkedin.com/in/amoghaa
+              </a>
+            </li>
+            <li>
+              <span class="contact-label">Location</span>
+              <span class="contact-value">Srinagara, Bengaluru</span>
+            </li>
+          </ul>
+        </div>
+
+        <form class="contact-form" onsubmit="event.preventDefault()">
+          <h3>Quick Message</h3>
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input id="name" type="text" placeholder="Your name" required />
+          </div>
+          <div class="form-group">
+            <label for="emailForm">Email</label>
+            <input id="emailForm" type="email" placeholder="you@example.com" required />
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" rows="4" placeholder="Tell me a bit about your project or opportunity..."
+              required></textarea>
+          </div>
+          <button type="submit" class="btn btn--primary btn--full">
+            Send Message (Prototype)
+          </button>
+          <p class="form-note">
+            This form is a front-end demo. You can later wire it up to a
+            backend (Flask/Node.js) or a service like Formspree.
+          </p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- ======= Footer ======= -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <p>© <span id="year"></span> Amogh A · Designed & coded with care.</p>
+      <p class="footer__note">
+        Built using HTML, CSS, and JavaScript — ready to extend with React,
+        Flask, or Node.js.
+      </p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
